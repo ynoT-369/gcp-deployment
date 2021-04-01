@@ -1,5 +1,5 @@
 import os
-import sys
+# import sys
 from app import create_app
 
 print(os.getenv("FLASK_CONFIG"))
