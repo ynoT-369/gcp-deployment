@@ -7,7 +7,8 @@ class Config:
 
 
 class ProductionConfig(Config):
-    pass
+    SERVER_NAME = "127.0.0.1:8080"
+    DEBUG = False
 
 
 class DevelopmentConfig(Config):

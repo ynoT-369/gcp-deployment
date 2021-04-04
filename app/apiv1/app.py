@@ -2,7 +2,8 @@ from . import api
 from flask import render_template, request, current_app
 # from app.exceptions import ValidationError
 # import base64
-from app.create_response import create_response
+# import app.create_response as create_response
+from ..create_response import create_response
 
 
 @api.route("/test", methods=["GET"])
